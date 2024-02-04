@@ -1,0 +1,36 @@
+r0 <- b_00000001
+r1 <- b_10000000
+r2 <- r0
+r4 <- r0
+r6 <- r0
+r3 <- r1
+r5 <- r1
+r7 <- r1
+
+r15 <- FLASH()
+
+r0 <- LBS(r0, 4)
+r2 <- LBS(r2, 4)
+r4 <- LBS(r4, 4)
+r6 <- LBS(r6, 4)
+r1 <- RBS(r1, 4)
+r3 <- RBS(r3, 4)
+r5 <- RBS(r5, 4)
+r7 <- RBS(r7, 4)
+
+r15 <- FLASH()
+
+r0 <- LBS(r0, 3)
+r2 <- LBS(r2, 3)
+r4 <- LBS(r4, 3)
+r6 <- LBS(r6, 3)
+r1 <- RBS(r1, 3)
+r3 <- RBS(r3, 3)
+r5 <- RBS(r5, 3)
+r7 <- RBS(r7, 3)
+
+r15 <- FLASH()
+r15 <- DELAY()
+r15 <- DELAY()
+r15 <- FLUSH()
+

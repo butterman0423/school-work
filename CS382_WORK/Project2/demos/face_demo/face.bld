@@ -1,0 +1,38 @@
+> DATA
+eye <- 102
+mouth <- 24 36 66
+
+> START
+r1 <- L(eye, r15)
+r2 <- r1
+r8 <- 0
+r4 <- L(mouth, r8)
+r8 <- ADD(r8, 1)
+r5 <- L(mouth, r8)
+r8 <- ADD(r8, 1)
+r6 <- L(mouth, r8)
+
+r15 <- FLASH()
+
+mouth <- S(r4, r8)
+r8 <- 0
+mouth <- S(r6, r8)
+
+r5 <- ORR(r5, r6)
+r5 <- ORR(r5, r4)
+r4 <- 0
+r6 <- 0
+
+r15 <- FLASH()
+
+r8 <- 0
+r4 <- L(mouth, r8)
+r8 <- ADD(r8, 1)
+r5 <- L(mouth, r8)
+r8 <- ADD(r8, 1)
+r6 <- L(mouth, r8)
+
+r15 <- FLASH()
+r15 <- DELAY()
+r15 <- DELAY()
+r15 <- FLUSH()
