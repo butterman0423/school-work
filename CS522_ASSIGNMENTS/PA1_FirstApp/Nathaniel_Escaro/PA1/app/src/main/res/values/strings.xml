@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nathaniel\'s First App</string>
+    <string name="prompt">What is your name?</string>
+    <string name="hint">Enter your name here.</string>
+    <string name="enter">ENTER</string>
+    <string name="show_name">Hello %s</string>
+</resources>
