@@ -272,6 +272,12 @@ int play(struct Player* plrs, struct Entry* qs, int qsize, int* max_ptns) {
 		qlen = strlen(buf);
 		fwrite(buf, sizeof(char), qlen, stdout);
 		fflush(stdout);
+		
+		// Build client entry
+		sprintf( buf, "\nQuestion %d: %s\nPress 1: %s\nPress 2: %s\nPress 3: %s\n", \
+				 curr_q, q.prompt, \
+				 q.options[0], q.options[1], q.options[2] );
+		qlen = strlen(buf);
 
 		select(maxfd + 1, SEL_WRON(fd_ready));
 

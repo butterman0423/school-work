@@ -14,7 +14,7 @@
 #define OPT_MAX			50
 
 // \n + Q + " ##: " + prompt + \n + 3 * ("#: " + OPT_MAX + "\n") + \0
-#define SEND_MAX		28 + PROMPT_MAX + (3 * OPT_MAX)
+#define SEND_MAX		28 + PROMPT_MAX + (3 * (OPT_MAX + 50))
 
 #define SOCK_SIZE		sizeof(struct sockaddr_in)
 
