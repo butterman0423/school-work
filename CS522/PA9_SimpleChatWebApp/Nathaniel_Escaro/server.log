@@ -1,0 +1,21 @@
+Apr 18, 2024 11:01:53 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Starting HTTP server...
+Apr 18, 2024 11:01:53 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [127.0.0.1:8080]
+Apr 18, 2024 11:01:53 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Apr 18, 2024 11:01:53 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Listening at http://127.0.0.1:8080
+Apr 18, 2024 11:01:53 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Service available at http://127.0.0.1:8080/chat
+Hit enter to stop...
+Apr 18, 2024 11:02:18 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (appId=bb2ef372-330a-44e7-8a7a-698c9224de12, chat-name=butter, timestamp=1713495732810, latitude=40.744906, longitude=-74.023937)
+Apr 18, 2024 11:02:18 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user butter with UUID bb2ef372-330a-44e7-8a7a-698c9224de12.
+Apr 18, 2024 11:02:25 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (appId=93814901-9f36-40b5-87b6-be2a7d346113, chat-name=man, timestamp=1713495738660, latitude=40.744906, longitude=-74.023937)
+Apr 18, 2024 11:02:25 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user man with UUID 93814901-9f36-40b5-87b6-be2a7d346113.
+Apr 18, 2024 11:03:24 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [127.0.0.1:8080]
