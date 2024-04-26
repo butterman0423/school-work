@@ -1,0 +1,1 @@
+cmd_/mnt/shared/CS492/nescaro-pa2/module/Module.symvers :=  sed 's/ko$$/o/'  /mnt/shared/CS492/nescaro-pa2/module/modules.order | scripts/mod/modpost -m     -o /mnt/shared/CS492/nescaro-pa2/module/Module.symvers -e -i Module.symvers -T - 

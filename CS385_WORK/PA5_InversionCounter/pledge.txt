@@ -1,0 +1,8 @@
+/*******************************************************************************
+ * Filename: gcd.cpp
+ * Author  : 
+ * Version : 1.0
+ * Date    : January 1, 2023
+ * Description: Computes the GCD of two command-line arguments.
+ * Pledge  : I pledge my honor that I have abided by the Stevens Honor System.
+ ******************************************************************************/

@@ -1,0 +1,17 @@
+v3.0 hex words addressed
+00: 10 a6 b6 cc 1e ff ef 11 12 13 aa ba 90 69 42 15
+10: ca fc fb a5 c8 a1 24 32 01 02 20 30 41 74 88 99
+20: 00 ee e4 e2 56 ab 23 10 11 80 90 9f a0 b0 b6 66
+30: 44 43 42 41 4a 5c dd d4 3d 2d ad bd 55 5d 5c 5a
+40: 35 3a 6d de ed fd df 11 11 11 00 6e aa 2c 4a 4d
+50: 50 60 70 71 75 66 6a 5d 3c ca ac ba cb fc af b0
+60: 43 80 90 89 79 69 59 9b a9 af 6b 6c 66 33 35 37
+70: 39 94 f1 f2 f3 4f f5 fa fb bf cf 3f 4d 8a 8f 85
+80: 86 87 82 28 5f ff fe 0f 01 04 0a 0b 1b 1d 79 7a
+90: bb bf 57 58 32 01 23 32 23 29 73 20 ab 29 fb ff
+a0: ad cd cc 5d a8 5d ad 9d d9 da ad 8c a8 a7 a9 00
+b0: 4a 3a 3c 05 8a 03 32 92 10 00 0f c8 aa 21 6f a0
+c0: b0 21 11 49 30 bb aa cc ee ff dd cc aa a7 20 ad
+d0: b0 39 69 48 60 19 30 40 69 30 38 59 26 49 57 a7
+e0: cc 21 10 06 39 44 68 12 85 93 ff 17 df cd af bd
+f0: 77 8a 07 b7 7a 6b 99 9f f9 f7 8d 6f 5c dc 4d dd
